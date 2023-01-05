@@ -1,0 +1,140 @@
+* {
+    border: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+header {
+
+    background-color: #FFF8F3;
+    background-image: url("images/header_bg.png"), url("images/developer.png");
+    background-repeat: no-repeat;
+    background-position: bottom right, left;
+}
+
+/* nav section */
+nav {
+    padding: 50px 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul li {
+    list-style-type: none;
+    margin-left: 50px;
+
+}
+
+nav li a {
+    text-decoration: none;
+    color: black;
+    font-weight: 400;
+    font-size: 20px;
+
+}
+
+nav li a button {
+    background-color: #FD6E0A;
+    padding: 18px 36px;
+    color: white;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+nav .nav-title {
+    font-weight: 800;
+    font-size: 45px;
+}
+
+.middle-text {
+    color: #FD6E0A;
+}
+
+/* banner saction */
+
+.banner-section {
+
+    padding: 0 200px;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.banner-left {}
+
+.banner-sub-title {
+    color: #474747;
+    font-weight: 600;
+    font-size: 45px;
+    margin-bottom: 5px;
+}
+
+.banner-title {
+    color: #181818;
+    font-weight: 700;
+    font-size: 85px;
+}
+
+.banner-description {
+    color: #757575;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.banner-right {}
+
+.banner-right img {
+    width: 500px;
+height: auto;
+
+}
+
+.dwnld-btn {
+    padding: 18px;
+    background-color: #FD6E0A;
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
+    border: none;
+    margin-right: 30px;
+}
+
+.contact-btn {
+    padding: 18px;
+    color: #FD6E0A;
+    font-weight: 700;
+    font-size: 20px;
+    border: none;
+}
+
+/* about section */
+.about{
+margin: 130px 230px;
+padding: 130px 157px;
+background-color: #FFF8F3;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+.section-title{
+color: #181818;
+font-weight: 700;
+font-size: 35px;
+margin-bottom: 30px;
+}
+.section-description{
+    font-weight: 400;
+    font-size: 18px;
+    color: #757575;
+    text-align: center;
+}
