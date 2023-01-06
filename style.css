@@ -11,7 +11,9 @@ header {
     background-repeat: no-repeat;
     background-position: bottom right, left;
 }
-
+section{
+    padding: 0 200px;
+}
 /* nav section */
 nav {
     padding: 50px 200px;
@@ -127,6 +129,7 @@ align-items: center;
 }
 
 .section-title{
+    text-align: center;
 color: #181818;
 font-weight: 700;
 font-size: 35px;
@@ -164,5 +167,14 @@ line-height: 30px;
     text-align: center;
     font-weight: 600;
 font-size: 18px;
+
+}
+.skill-items{
+margin-top: 50px;
+display: flex;
+gap: 20px;
+}
+
+.skill{
 
 }
